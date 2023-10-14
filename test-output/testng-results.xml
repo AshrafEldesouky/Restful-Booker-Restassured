@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-14T22:50:32 GST" name="Default Suite" finished-at="2023-10-14T22:50:36 GST" duration-ms="3802">
+    <groups>
+    </groups>
+    <test started-at="2023-10-14T22:50:32 GST" name="Restful-Booker" finished-at="2023-10-14T22:50:36 GST" duration-ms="3802">
+      <class name="testcases.TC02_CreateBooking">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testcases.TC02_CreateBooking@79d94571]" started-at="2023-10-14T22:50:32 GST" name="defineSuiteElements" finished-at="2023-10-14T22:50:32 GST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC02_CreateBooking@79d94571]" started-at="2023-10-14T22:50:32 GST" name="setup" finished-at="2023-10-14T22:50:33 GST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBookingWithValidData_P()[pri:1, instance:testcases.TC02_CreateBooking@79d94571]" started-at="2023-10-14T22:50:33 GST" name="createBookingWithValidData_P" description="Create Booking With Valid Data" finished-at="2023-10-14T22:50:36 GST" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithValidData_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC02_CreateBooking@79d94571]" started-at="2023-10-14T22:50:36 GST" name="getResult" finished-at="2023-10-14T22:50:36 GST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBookingWithValidData_P status=SUCCESS method=TC02_CreateBooking.createBookingWithValidData_P()[pri:1, instance:testcases.TC02_CreateBooking@79d94571] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_CreateBooking@79d94571]" started-at="2023-10-14T22:50:36 GST" name="tearDown" finished-at="2023-10-14T22:50:36 GST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_CreateBooking -->
+    </test> <!-- Restful-Booker -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="MyTest">
+        <classes>
+            <class name="testcases.TC01_CreateToken">
+                <methods>
+                    <include name="createTokenWithValidData_P" />
+                </methods>
+            </class>
+            <class name="testcases.TC01_CreateToken">
+                <methods>
+                    <include name="checkResponseHasTokenKey" />
+                </methods>
+            </class>
+
+
+            <class name="testcases.TC02_CreateBooking">
+                <methods>
+                    <include name="createBookingWithValidData_P" />
+                </methods>
+            </class>
+            <class name="testcases.TC03_UpdateBooking">
+                <methods>
+                    <include name="Update_PUT_BookingWithValidData_P" />
+                </methods>
+            </class>
+            <class name="testcases.TC03_UpdateBooking">
+                <methods>
+                    <include name="Update_Patch_BookingWithValidData_P" />
+                </methods>
+            </class>
+
+            <class name="testcases.TC04_GetBooking">
+                <methods>
+                    <include name="GetALLBookingWithValidData_P" />
+                </methods>
+            </class>
+            <class name="testcases.TC04_GetBooking">
+                <methods>
+                    <include name="checkTheSchemaHasTheBookingID_P" />
+                </methods>
+            </class>
+            <class name="testcases.TC04_GetBooking">
+                <methods>
+                    <include name="GetBooking_ByBookingID_WithValidData_P" />
+                </methods>
+            </class>
+
+            <class name="testcases.TC05_DeleteBooking">
+                <methods>
+                    <include name="Delete_Booking_ByBookingID_WithValidData_P" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
